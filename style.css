@@ -69,7 +69,7 @@ body {
     width: 90%;
     margin-bottom: 10px;
     border-radius: 10px;
-    font-size: clamp(1.1rem, 1.2vw, 2rem);
+    font-size: clamp(1.1rem, 1vw, 2rem);
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     background-color: hsl(300, 24%, 96%);
@@ -126,21 +126,21 @@ body {
 .face {
     grid-area: face;
     border-radius: 50%;
-    height: 50%
+    height: 50%;
     align-self: center;
 }
 
 .name {
     grid-area: name;
     margin-left: 20px;
-    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 0.5vw, 1.2rem);
     align-self: end;
 }
 
 .subtitle {
     grid-area: subtitle;
     margin-left: 20px;
-    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 0.5vw, 1.2rem);
     font-weight: 400;
     color: hsl(333, 80%, 67%);
 }
@@ -148,7 +148,7 @@ body {
 .text-box {
     grid-area: text-box;
     grid-column: text-box;
-    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-size: clamp(1rem, 0.8vw, 1.5rem);
     line-height: 1.7rem;
 }
 
