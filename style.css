@@ -78,7 +78,7 @@ body {
 }
 
 .ava::before {
-    content: url("images/icon-star.svg") " " url("images/icon-star.svg") " " url("images/icon-star.svg") " " url("images/icon-star.svg") " " url("images/icon-star.svg");
+    content: url("images/icon-star.svg") " " url("images/icon-star.svg") " " url("images/icon-star.svg") " " url("images/icon-star.svg") " " url("images/icon-star.svg") " ";
 }
 
 .ava-midle {
